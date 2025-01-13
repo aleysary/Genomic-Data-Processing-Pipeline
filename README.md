@@ -1,12 +1,12 @@
 # Genomic Data Processing Pipeline
 
-##Overview
+## Overview
 This repository hosts a sophisticated genomic data processing pipeline crafted to facilitate the analysis of complex genomic datasets using a structured k-fold cross-validation methodology. The pipeline integrates multiple scripting languages and bioinformatics tools to handle various tasks—from data preparation and sequence alignment to advanced statistical analysis.
 
-##Core Components of the Pipeline
-Data Preparation: The pipeline begins with a Python script (Clusterp.py) that prepares input genomic sequences by organizing and formatting them to ensure compatibility with downstream processing steps.
+## Core Components of the Pipeline 
+* Data Preparation: The pipeline begins with a Python script (Clusterp.py) that prepares input genomic sequences by organizing and formatting them to ensure compatibility with downstream processing steps. *
 
-Sequence Alignment with Vsearch: Utilizing vsearch, a versatile sequence alignment tool, the pipeline performs highly accurate alignments of genomic sequences. This step is critical for identifying homologous sequences across different genomic datasets, allowing for precise comparative analysis.
+*Sequence Alignment with Vsearch: Utilizing vsearch, a versatile sequence alignment tool, the pipeline performs highly accurate alignments of genomic sequences. This step is critical for identifying homologous sequences across different genomic datasets, allowing for precise comparative analysis.*
 
 Automated Data Processing Scripts: A series of Python and Java scripts automate the transformation and analysis of aligned data. These scripts handle tasks such as trimming aligned sequences to relevant sections, preparing data for statistical analysis, and parsing output into usable formats.
 
