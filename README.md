@@ -1,7 +1,7 @@
 # Genomic Data Processing Pipeline
 
 ## Overview
-This repository hosts a sophisticated genomic data processing pipeline crafted to facilitate the analysis of complex genomic datasets using a structured k-fold cross-validation methodology. The pipeline integrates multiple scripting languages and bioinformatics tools to handle various tasks—from data preparation and sequence alignment to advanced statistical analysis.
+This repository hosts a sophisticated genomic data processing pipeline crafted to facilitate the analysis of complex genomic datasets using a structured k-fold cross-validation methodology. The pipeline integrates multiple scripting languages and bioinformatics tools to handle various tasks—from data preparation and sequence alignment to advanced statistical analysis. I developed this pipeline as an internship project at the University Of Maryland Environmental Science Appalachian Labratory 
 
 ## Core Components of the Pipeline 
 * Data Preparation: The pipeline begins with a Python script (Clusterp.py) that prepares input genomic sequences by organizing and formatting them to ensure compatibility with downstream processing steps. 
